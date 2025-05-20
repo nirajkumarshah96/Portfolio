@@ -1,0 +1,327 @@
+/*navbar*/
+nav{
+  border-bottom:#20c997 2px solid;
+}
+.logo{
+  padding-left: 25px;
+  display: inline-flex;
+  align-items: center;
+
+}
+.logo img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transform: scaleX(-1);
+}
+.logo-text{
+  font-size: 18px;
+  color: #20c997;
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.navbar-nav {
+  margin-left: auto !important;
+  margin-right: 25px !important;
+}
+.navbar-nav li{
+  padding-right: 15px;
+}
+.nav-item a{
+  color: #ffffff !important;
+}
+.nav-item .active{
+  color: #1baa80 !important;
+  font-weight: bold !important;
+}
+a, a:focus {
+  color: #20c997;
+  text-decoration: none;
+}
+a:active, a:hover{
+  color: #1baa80 !important;
+}
+/*nav end*/
+
+/*home*/
+#home-height{
+  min-height: 450px;
+}
+.profile-picture{
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  border-bottom:#20c997 3px solid;
+  border-top:#20c997 3px solid;
+  border-left: #00ACEE 3px solid;
+  border-right:#00ACEE 3px solid;
+}
+@media (max-width: 550px) {
+  .profile-picture{
+    height: 200px;
+    width: 200px;
+  }
+}
+/*home page socoal media icons*/
+.home-social-icons li {
+  margin: 2px 6px;
+  padding: 0;
+  overflow: visible;
+}
+
+.home-social-icons li a {
+  display: block;
+  height: 26px;
+  line-height: 26px;
+  width: 26px;
+  font-size: 16px;
+  text-align: center;
+  color: #dee3e4ee;
+  text-decoration: none;
+}
+
+.home-social-icons li.social-icons-twitter a{
+  color: #00ACEE !important;
+}
+.home-social-icons li:hover.social-icons-twitter a{
+  font-size: 20px;
+}
+
+.home-social-icons li.social-icons-facebook a{
+  color: #3B5998 !important;
+}
+.home-social-icons li:hover.social-icons-facebook a{
+  font-size: 20px;
+}
+
+.home-social-icons li.social-icons-linkedin a{
+  color: #0E76A8 !important;
+}
+.home-social-icons li:hover.social-icons-linkedin a{
+  font-size: 20px;
+}
+
+.home-social-icons li.social-icons-github a{
+  color: #dee3e4ee !important;
+}
+.home-social-icons li:hover.social-icons-github a{
+  font-size: 20px;
+}
+
+.home-social-icons li.social-icons-instagram a{
+  color: #ea4c89 !important;
+}
+.home-social-icons li:hover.social-icons-instagram a{
+  font-size: 20px;
+}
+
+
+/*buttonr*/
+.button {
+  border:#20c997 2px solid;
+  color:#20c997;
+  padding: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+}		
+
+.button:hover {
+  background-color: #1baa80;
+  border-color: #1baa80;
+  color: #fff !important;
+}
+
+.text-20 {
+  font-size: 90px !important;
+}
+
+@media (max-width: 520px) {
+  .text-20 {
+    font-size: 50px !important;
+  }
+}
+.text-9 {
+  font-size: 36px !important;
+  padding-top: 15px !important;
+}
+@media (max-width: 520px) {
+  .text-9 {
+    font-size: 25px !important;
+    padding-top: 5px !important;
+  }
+}
+.text-light {
+  color: #dee3e4ee !important;
+}
+.opacity-5 {
+  opacity: 0.5;
+}
+.heading-separator-line {
+  width: 80px !important;
+}
+@media (max-width: 520px) {
+  .heading-separator-line {
+    width: 60px !important;
+  }
+}
+.border-primary {
+  border-color: #00dd9b !important;
+}
+.text-primary {
+  color: #20c997 !important;
+}
+
+.list-style-2 {
+  padding: 0;
+}
+
+.list-style-2 li {
+  list-style-type: none;
+  border-bottom: 1px solid #eaeaea;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+/*skills*/
+.featured-box {
+  box-sizing: border-box;
+  position: relative;
+  padding-left: 50px;
+  padding-top: 8px;
+}
+.featured-box-icon {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: bold;
+  min-width: 55px;
+  min-height: 55px;
+  margin-bottom: 10px;
+  color: #4c4d4d;
+  border-radius: 50px !important;
+  padding: 10px !important;
+}
+
+.featured-box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+/*project*/
+.bg-primary {
+  background-color: #20c997 !important;
+}
+.text-2 {
+  font-size: 14px !important;
+}
+
+/*contact*/
+.text-3 {
+  font-size: 16px !important;
+}
+.text-4 {
+  font-size: 18px !important;
+}
+
+#contact p a{
+  color: rgba(0, 0, 0, 0.765);
+}
+
+.social-icons {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.social-icons li {
+  margin: 2px 6px;
+  padding: 0;
+  overflow: visible;
+}
+
+.social-icons li a {
+  display: block;
+  height: 26px;
+  line-height: 26px;
+  width: 26px;
+  font-size: 18px;
+  text-align: center;
+  color: #4d555a;
+  text-decoration: none;
+}
+
+.social-icons li i {
+  line-height: inherit;
+}
+.social-icons li.social-icons-twitter a{
+  color: #00ACEE !important;
+}
+.social-icons li:hover.social-icons-twitter a{
+  font-size: 22px;
+}
+
+.social-icons li.social-icons-facebook a{
+  color: #3B5998 !important
+}
+.social-icons li:hover.social-icons-facebook a{
+  font-size: 22px;
+}
+
+.social-icons li.social-icons-linkedin a{
+  color: #0E76A8 !important;
+}
+.social-icons li:hover.social-icons-linkedin a{
+  font-size: 22px;
+}
+
+.social-icons li.social-icons-github a{
+  color: #333333 !important;
+}
+.social-icons li:hover.social-icons-github a{
+  font-size: 22px;
+}
+
+.social-icons li.social-icons-instagram a{
+  color: #ea4c89 !important;
+}
+.social-icons li:hover.social-icons-instagram a{
+  font-size: 22px;
+}
+
+.form-control:focus {
+  -webkit-box-shadow: 0 0 5px rgba(128, 189, 255, 0.5);
+  box-shadow: 0 0 5px rgba(128, 189, 255, 0.5);
+}
+.form-control::-webkit-input-placeholder {
+  color: #b1b4b6 ;
+}
+.section {
+  position: relative;
+  overflow: hidden;
+}
+
+
+/*footer*/
+.footer {
+  padding: 10px 0px 0px 0px; 
+  border-top:#20c997 2px solid;
+}
+@media (max-width: 520px) {
+  .footer P{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 750px) {
+  .orderb{
+    order:1;
+  }
+  .ordert{
+    order:0;
+  }
+}
